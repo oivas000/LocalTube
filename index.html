@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Created by @oivas000 -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="application-name" content="LocalTube">
+  <meta name="author" content="oivas000">
+  <meta name="description" content="Enjoy locally available videos with our dedicated web player.">
+  <meta name="keywords" content="oivas000, SAVIO PRINCE, LocalTube, localhost, web, video">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalTube</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="plyr.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div><button type="button" class="logo-button">
+          <a href="/">
+            <h1>LocalTube</h1>
+          </a>
+        </button>
+      </div>
+      <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Search videos...">
+        <button class="search-button">
+          <img src="search.svg" alt="Search" width="20" height="20">
+        </button>
+      </div>
+    </nav>
+  </header>
+  <hr>
+  <section class="loader">
+    <div class="dot-loader"></div>
+    <div class="dot-loader dot-loader--2"></div>
+    <div class="dot-loader dot-loader--3"></div>
+  </section>
+  <section class="container" id="videoContainer"></section>
+  <script src="plyr.js"></script>
+  <script src="script.js"></script>
+  <footer>
+    <div>
+      <p>&copy; 2023 SAVIO PRINCE</p>
+    </div>
+  </footer>
+</body>
+</html>
