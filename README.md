@@ -2,7 +2,7 @@
 **LocalTube: A Simple Web Video Player.**  
 An Experimental Project.
 
-**Demo: [tube.oivas000.live](https://tube.oivas000.live)**
+**Demo: [tube.oivas000.tech](https://tube.oivas000.tech)**
 
 ## Usage
 - Add the paths to your video files in the `videos.list` file. (Only relative paths will work.)
